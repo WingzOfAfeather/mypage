@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--remember to write code that works with a screen reader for accessibility-->
+<!--SEO, accessibility, mobile, usability-->
+<!--code in the ability to tab through document for better navigation-->
+<head>
+	<meta charset="UTF-8">
+	<title>My First Page</title>
+	<!--This sets the icon on the browser tab-->
+	<!--<link rel="icon" type="jpg" href="HorsetailFall.jpg"/>-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+</head>
+<body>
+	<table>
+		<tr><th>Name</th><td>Colleen</td></tr>
+		<tr><th>Age</th><td>26</td></tr>
+		<tr><th>Team</th><td>Browns</td></tr>
+	</table>
+	<header></header>
+	<nav></nav>
+	<!--block tags-->
+	<article></article>
+	<aside></aside>
+	<section></section>
+	<hr>
+	<address></address>
+	<blockquote cite="SFS"></blockquote>
+	<details><summary></summary></details>
+	<!--inline tags-->
+	<span></span>
+	<cite></cite>
+	<abbr></abbr>
+	<time></time>
+	<code></code>
+	<sub></sub>
+	<sup></sup>
+	<!--other special tags-->
+	<button></button>
+	<meter></meter>
+	<progress value="" max=""></progress>
+	<iframe src=""></iframe>
+	<bdo dir="rtl"></bdo>
+	<map><area shape="" coords="" href=""></map>
+	<!--div can be used to divide sections of content up into containers-->
+	<header>
+		<h1>This is a heading 1</h1>
+		<h2>This is a heading 2</h2>
+	</header>
+	<div>this is test</div><div>this is more test</div>
+	<div>
+		<main><p>This is my main</p></main>
+		<p><a href="#linkedin">Click here to scroll to Linkedin</a></p>
+		<table border="1">
+			<caption>This is a caption</caption>
+			<tr><th>Col One</th><th>Col Two</th><th>Col Three</th></tr>
+			<tr><td rowspan="2">One</td><td colspan="2">Two</td><td>Three</td></tr>
+			<tr><td>Four</td><td>Five</td></tr>
+			<tr><td>Six</td><td>Seven</td><td>Eight</td></tr>
+		</table>
+		<table border="1">
+			<caption>This is a caption</caption>
+			<thead>
+				<tr>
+					<th>Col One</th>
+					<th>Col Two</th>
+					<th>Col Three</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">One</td>
+					<td colspan="2">Two</td>
+					<td>Three</td>
+				</tr>
+				<tr>
+					<td>Four</td>
+					<td>Five</td>
+				</tr>
+				<tr>
+					<td>Six</td>
+					<td>Seven</td>
+					<td>Eight</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+	</div>
+	<ol>
+		<li>Teno</li>
+		<li value="4">Toto</li>
+		<li>Tivo</li>
+	</ol>
+	<ol>
+		<li>Veg</li>
+		<li>Fruit
+			<ul>
+				<li>blue</li>
+				<li>ban</li>
+			</ul>
+		</li>
+	</ol>
+	<!--definitions tags-->
+	<dl>
+		<dt>Coffee</dt>
+		<dd>Black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>White cold drink</dd>
+	</dl>
+	<!--Good alt text helps search engines find your page. Also, if you want to link an image to the root use a /-->
+	<figure>
+		<img src="images/HorsetailFall.jpg" width="50%" alt="HorsetailFall"/>
+	</figure>
+	<br>
+	<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+	<a href = "images/HorsetailFall.jpg">My dog</a> chews socks.
+	<br>
+	<a href="https://www.w3schools.com" target="_blank">This is a target link</a>
+	<a href="https://www.w3schools.com"><img src="C:\Users\sfrie\Desktop\Coding Resources\HorsetailFall.jpg" width="25%" alt="Oops image not loaded!"/></a>
+	<!--embeded credit badge-->	
+	<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@cedricletsch?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Cedric Letsch"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Cedric Letsch</span></a>
+	<i class="fas fa-angry"></i>
+	<i class="fas fa-angry fa-lg"></i>
+	<i class="fas fa-angry fa-2x"></i>
+	<br>
+	<video>This is test video</video>
+	<audio>THis is test audio</audio>
+	<footer>
+		<p>This is my footer
+			<a href="http://www.twitter.com" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+			<a href="http://www.pinterest.com" aria-label="Pinterest"><i class="fab fa-pinterest fa-2x"></i></a>
+			<a href="http://www.linkedin.com" id="linkedin" aria-label="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+		</p>
+	</footer>
+</body>
+</html>
